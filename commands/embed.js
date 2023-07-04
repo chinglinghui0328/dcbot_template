@@ -2,8 +2,9 @@ const { SlashCommandBuilder, EmbedBuilder } = require("discord.js");
 module.exports = {
     data: new SlashCommandBuilder().setName("embed").setDescription("show an embed"),
     async execute(client, interaction) {
-        const embed = new EmbedBuilder().setTitle("I'm an Embed");
+        const embed = new EmbedBuilder().setTitle("70's first bot");
         interaction.reply({ embeds: [embed] });
+        ReadableStreamDefaultController('Red')
     },
 };
 /*
